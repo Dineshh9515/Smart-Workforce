@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL',
+  baseURL: import.meta.env.VITE_BACKEND_URL,
   withCredentials: true, // Important for cookies/sessions
   headers: {
     'Content-Type': 'application/json',
